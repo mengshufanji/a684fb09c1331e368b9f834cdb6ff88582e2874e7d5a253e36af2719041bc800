@@ -1,10 +1,8 @@
 name: mengshufanji
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 1/6 * * *'
-
+    - cron: '43 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,14 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: mengshufanji
         env:
-          t0: ${{ secrets.t0 }}
+          l241: ${{ secrets.l241 }}
         run: |
-          echo $t0 | jq -r .wc66 | /bin/bash
-          echo $h7880 | jq -r .ilklh5 | /bin/bash
-          echo $twol221 | jq -r .i607 | /bin/bash
-          echo $zlo04 | jq -r .fghr41 | /bin/bash
-          echo $g99 | jq -r .k783 | /bin/bash
-          echo $ppdj56 | jq -r .e1 | /bin/bash
-          echo $a926 | jq -r .hvtj475 | /bin/bash
-          echo $xwxm3166 | jq -r .g891 | /bin/bash
+          echo $l241 | jq -r .npvz77388 | /bin/bash
+          echo $ird72436 | jq -r .feihc78177 | /bin/bash
+          echo $skwl5281 | jq -r .epwgz0 | /bin/bash
+          echo $egku8 | jq -r .pk19 | /bin/bash
+          echo $lfnvx9 | jq -r .citnf972 | /bin/bash
 
